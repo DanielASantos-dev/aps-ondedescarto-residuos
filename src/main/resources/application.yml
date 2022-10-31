@@ -1,0 +1,13 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create
+  datasource:
+    url: jdbc:mysql://localhost:3306/dbresiduos?createDatabaseIfNotExist=true
+    username: root
+    password: 1234
+server:
+  error:
+    include-stacktrace: NEVER
+    include-binding-errors: NEVER
+  port: 8081
